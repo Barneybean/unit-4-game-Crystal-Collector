@@ -2,13 +2,20 @@ body {
     background: url("../images/background.png");
 }
 
+.headerimage{
+    height:130px;
+    width: 100%;
+}
+
 .card {
-    width: 50%; 
+    width: 60%;
+    margin: 0 auto;
     background-color:rgba(0, 0, 0, 0.8);  
 }
 
 p{
     color: whitesmoke;
+    font-size: 15px;
 }
 
 .crystal {
@@ -23,12 +30,12 @@ p{
 }
 
 .numberContainer{
-    height:140px;
+    height:100px;
     width:40%;
     background: green;
-    margin-right:50px;
+    margin:0 5%;
     font-weight: 400;
-    font-size: 70px;
+    font-size: 60px;
     padding-top:10px;
     text-align: center;
 }
