@@ -40,6 +40,10 @@ p{
     text-align: center;
 }
 
+#counter{
+    font-size:40px;
+}
+
 #score{
     height: 100px;
     text-align: center;
