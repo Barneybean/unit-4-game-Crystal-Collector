@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Crystal Collector Game</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+        <div class="card">
+            <img class="card-img-top border" src="assets/images/header.jpg" alt="Crystal Colloector Logo">
+            <div class="card-body">
+                <p class="card-text">You will be given a random number at the start of the game.</p>
+                <p class="card-text">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                <p class="card-text">You win the game by matching your total score to random number. You lose the game if your total score goes above the random number.</p>
+                <p class="card-text">The value of each crystal is hidden from you until you click it and values are different each game.</p>
+                <p class="card-text">Each time when the game starts, the game will change the values of each crystal.</p>
+
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <div id="targetNumber" class="numberContainer float-left"></div>
+                    <div id="counter" class="numberContainer float-right">
+                        <h4>Wins: <span id="wins"></span></h4>
+                        <h4>Loss: <span id="loss"></span></h4>
+                    </div>
+                </li>
+                <li class="list-group-item crystalContainer">
+                    <img src="assets/images/red.png" class="crystal rounded float-left red" alt="red">
+                    <img src="assets/images/yellow.png" class="crystal rounded float-left yellow" alt="yellow">
+                    <img src="assets/images/blue.png" class="crystal rounded float-left blue" alt="blue">
+                    <img src="assets/images/green.png" class="crystal rounded float-left green" alt="green">
+                </li>
+                <li class="list-group-item">Your Total Score is: </li>
+                <li>
+                    <div id="score" class="p-3 mb-2 bg-info text-white"></div>  
+                </li>
+            </ul>
+            <div class="card-body">
+                
+            </div>
+        </div>
+
+
+       
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/javascript/game.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

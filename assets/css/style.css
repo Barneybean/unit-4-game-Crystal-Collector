@@ -1,0 +1,42 @@
+body {
+    background: url("../images/background.png");
+}
+
+.card {
+    width: 50%; 
+    background-color:rgba(0, 0, 0, 0.8);  
+}
+
+p{
+    color: whitesmoke;
+}
+
+.crystal {
+    height: 100px;
+    width: 100px;
+    float:left;
+}
+
+.crystalContainer{
+    margin: 0 auto;
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.numberContainer{
+    height:140px;
+    width:40%;
+    background: green;
+    margin-right:50px;
+    font-weight: 400;
+    font-size: 70px;
+    padding-top:10px;
+    text-align: center;
+}
+
+#score{
+    height: 100px;
+    text-align: center;
+    font-size:50px;
+}
+
+
