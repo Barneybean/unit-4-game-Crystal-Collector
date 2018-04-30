@@ -4,24 +4,24 @@ var redValue="";
 var blueValue="";
 var yellowValue="";
 var greenValue="";
+var redBtn;
+var blueBtn;
+var yellowBtn;
+var greenBtn;
 var score;
 var wins=0;
 var loss=0;
 
 function initialize() {
-    // assign random number to each crystal
     targetNumber=Math.floor(Math.random()*101)+19;
-    redValue=Math.floor(Math.random()*12)+1;
-    blueValue=Math.floor(Math.random()*12)+1;
-    yellowValue=Math.floor(Math.random()*12)+1;
-    greenValue=Math.floor(Math.random()*12)+1;
     // reset counter
     score=0;
+    var crystal=[$(".red"), $(".blue"), $(".yellow"), $(".green")];
+    var button=[redBtn, blueBtn, yellowBtn, greenBtn];
     // to assign value to each crystal
-    var redBtn=$(".red").attr("data-chicken",redValue);
-    var blueBtn= $(".blue").attr("data-chicken",blueValue);
-    var yellowBtn=$(".yellow").attr("data-chicken",yellowValue);
-    var greenBtn=$(".green").attr("data-chicken",greenValue);
+    for (var i=0; i<crystal.length; i++) {
+        button[i]=crystal[i].attr("data-chicken", Math.floor(Math.random()*12)+2);
+    };
     // to print out target number and score on screen
     $("#targetNumber").html(targetNumber);
     $("#wins").html(wins);
