@@ -1,8 +1,11 @@
 # unit-4-game
 
+deployed site: https://barneybean.github.io/unit-4-game-Crystal-Collector/
 
-contributor and maintainer: Chunjin Gao, seewilliam.gao@gmail.com
+##Motivation: 
+The game is created for fun and to practice if statement and data attributes.
 
+##How to play
 There will be four crystals displayed as buttons on the page.
 The player will be shown a random number at the start of the game.
 
@@ -23,3 +26,7 @@ When the game begins again, the player should see a new random number. Also, all
 
 
 The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
+
+##Developer and Maintainer
+Chunjin (William) Gao   
+seewilliam.gao@gmail.com
